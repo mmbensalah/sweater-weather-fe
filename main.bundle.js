@@ -55,7 +55,7 @@
 
 	function getWeather() {
 	  var ourRequest = new XMLHttpRequest();
-	  ourRequest.open('GET', "http://localhost:3000/api/v1/forecast?location=" + field.value);
+	  ourRequest.open('GET', "https://damp-lowlands-57714.herokuapp.com/api/v1/forecast?location=" + field.value);
 	  ourRequest.onload = function () {
 	    var jsonData = JSON.parse(ourRequest.responseText)["data"];
 	    renderHTML(jsonData);
