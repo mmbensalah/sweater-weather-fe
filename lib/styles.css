@@ -1,0 +1,26 @@
+.search {
+  display: flex;
+  justify-content: center;
+}
+.all-weather {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.forecast {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+}
+
+.hourly {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+
+.daily {
+  display: flex;
+  justify-content: center;
+  background-color: yellow;
+}
