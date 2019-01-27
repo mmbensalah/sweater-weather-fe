@@ -1,33 +1,123 @@
+* {
+  font-family: "Open Sans";
+}
+
+.search-field {
+  height: 30px;
+  text-align: center;
+  margin: 0px 5px 0px 0px;
+}
+
+.btn {
+  background-color: #BAA7B0;
+  color: #C7EBF0;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin: 0px 5px 0px 5px;
+}
+
 .search {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .all-weather {
   display: flex;
   justify-content: center;
   max-width: 100%;
-  border: 1px solid blue;
   padding: 10px;
   margin: 10px 0px 10px 0px;
+  background-color: #BAA7B0;
 }
 
 .forecast {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   width: 500px;
   height: 200px;
-  border: 1px solid blue;
+  padding: 10px;
+  border: 1px solid #C7EBF0;
   box-sizing: border-box;
+  background-color: #B2ABBF;
+}
+
+.desc-current-temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.desc {
+
+}
+
+.cur-temp {
+  font-size: 300%;
+  font-weight: bold;
+}
+
+.city-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.city {
+  font-size: 250%;
+  font-weight: bold;
+}
+
+.country {
+  font-size: 150%;
+}
+
+.cur-time {
+  font-size: 100%;
 }
 
 .forecast-secondary {
   display: flex;
   justify-content: center;
+  flex-direction: row;
   width: 500px;
   height: 200px;
-  border: 1px solid blue;
+  border: 1px solid #C7EBF0;
   box-sizing: border-box;
+  background-color: #B1B5C8;
+  padding: 10px;
+  font-size: 75%;
 }
+
+.align-left {
+  flex-direction: column;
+  width: 250px;
+  height: 175px;
+  margin-right: 15px;
+}
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 250px;
+  height: 175px;
+  margin-left: 15px;
+}
+
+.details {}
+.desc-2 {
+}
+.feels-like {}
+.humidity {}
+.visibility {}
+.uv {}
 
 .future-weather {
   display: flex;
@@ -37,6 +127,7 @@
   height: 300px;
   border: 1px solid blue;
   box-sizing: border-box;
+  background-color: #BAA7B0;
 }
 
 .hourly {
