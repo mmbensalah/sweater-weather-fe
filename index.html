@@ -10,20 +10,35 @@
 
 <body>
   <div class='search'>
-    <input type="text" id="search-field"></input>
-    <button id="search-btn">Get Weather</button>
-    <button id="fav-btn">Get Favorites</button>
+    <input type="text" class="search-field" id="search-field" placeholder="Enter Location"></input>
+    <button class="btn" id="search-btn">Get Weather</button>
+    <button class="btn" id="fav-btn">Get Favorites</button>
   </div>
   <div class="all-weather">
     <div class="forecast">
-      <div class="city"></div><br>
-      <div class="desc"></div><br>
-      <div class="cur-temp"></div><br>
-      <div class="cur-time"></div><br>
+      <div class="desc-current-temp">
+        <div class="desc"></div><br>
+        <div class="cur-temp"></div><br>
+      </div>
+      <div class="city-time">
+        <div class="city"></div><br>
+        <div class="country"></div><br>
+        <div class="cur-time"></div><br>
+      </div>
     </div>
     <div class="forecast-secondary">
-      <div class="feels-like"></div><br>
-      <div class="humidity"></div><br>
+      <div class="align-left">
+        <strong><div class="details"></div></strong>
+        <div class="desc-2"></div><br>
+        <div class="today"></div><br>
+        <div class="tonight"></div><br>
+      </div>
+      <div class="align-right">
+        <div class="feels-like"></div><br>
+        <div class="humidity"></div><br>
+        <div class="visibility"></div><br>
+        <div class="uv"></div><br>
+      </div>
     </div>
   </div>
     <div class="future-weather">
@@ -40,7 +55,7 @@
         <div class="day-time"></div><br>
       </div>
     </div>
-  </div>  
+  </div>
   <script src="main.bundle.js"></script>
 </body>
 
