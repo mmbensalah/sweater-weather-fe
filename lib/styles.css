@@ -1,0 +1,92 @@
+.search {
+  display: flex;
+  justify-content: center;
+}
+.all-weather {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  border: 1px solid blue;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.forecast-secondary {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.future-weather {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  max-width: 100%;
+  height: 300px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.hourly {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.daily {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.day-icon {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+}
+
+#newIconDiv {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: pink;
+}
+
+.day-rain-prob {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: orange;
+}
+
+.day-temp-high {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+.day-temp-low {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: green;
+}
+
+.day-time {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+}

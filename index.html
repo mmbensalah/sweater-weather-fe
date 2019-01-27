@@ -2,17 +2,45 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="lib/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
   <title>Quantified Self - Diary</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
-  <input type="text" id="search-field"></input>
-  <button id="search-btn">Get Weather</button>
-  <button id="fav-btn">Get Favorites</button>
-  <div class="b-current-weather-details"></div>
-  <div class="b-current-daily"></div>
-  <div class="b-current-hourly"></div>
+  <div class='search'>
+    <input type="text" id="search-field"></input>
+    <button id="search-btn">Get Weather</button>
+    <button id="fav-btn">Get Favorites</button>
+  </div>
+  <div class="all-weather">
+    <div class="forecast">
+      <div class="city"></div><br>
+      <div class="desc"></div><br>
+      <div class="cur-temp"></div><br>
+      <div class="cur-time"></div><br>
+    </div>
+    <div class="forecast-secondary">
+      <div class="feels-like"></div><br>
+      <div class="humidity"></div><br>
+    </div>
+  </div>
+    <div class="future-weather">
+      <div class="hourly">
+        <div class="hour-icon"></div><br>
+        <div class="hour-temp"></div><br>
+        <div class="hour-time"></div><br>
+      </div>
+      <div class="daily">
+        <div class="day-icon"></div><br>
+        <div class="day-rain-prob"></div><br>
+        <div class="day-temp-high"></div><br>
+        <div class="day-temp-low"></div><br>
+        <div class="day-time"></div><br>
+      </div>
+    </div>
+  </div>  
   <script src="main.bundle.js"></script>
 </body>
 
