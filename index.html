@@ -2,8 +2,12 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="lib/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/weather-icons-wind.css">
+  <link rel="stylesheet" type="text/css" href="css/weather-icons-wind.min.css">
+  <link rel="stylesheet" type="text/css" href="css/weather-icons.css">
+  <link rel="stylesheet" type="text/css" href="css/weather-icons.min.css">
   <title>Quantified Self - Diary</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
@@ -84,17 +88,22 @@
           <div class="time-7"></div>
         </div>
       </div>
-
+      <div class="all-icons">
+        <div class="sun"><i class="wi wi-sunrise"></i></div>
+        <div class="rain"><i class="wi wi-raindrops"></i></div>
+        <div class="up"><i class="wi wi-direction-up"></i></div>
+        <div class="down"><i class="wi wi-direction-down"></i></div>
+        <div class="time-icon"><i class="wi wi-time-1"></i></div>
+      </div>
       <div class="daily">
-        <div class="day-icon"></div><br>
-        <div class="day-rain-prob"></div><br>
-        <div class="day-temp-high"></div><br>
-        <div class="day-temp-low"></div><br>
-        <div class="day-time"></div><br>
+        <div class="day-icon"></div>
+        <div class="day-rain-prob"></div>
+        <div class="day-temp-high"></div>
+        <div class="day-temp-low"></div>
+        <div class="day-time"></div>
       </div>
     </div>
   </div>
   <script src="main.bundle.js"></script>
 </body>
-
 </html>
