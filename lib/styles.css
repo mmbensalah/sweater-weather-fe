@@ -131,13 +131,20 @@
 
 .hourly {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
   border: 1px solid blue;
   box-sizing: border-box;
   padding: 10px;
+  font-size: 60%;
+}
+
+.hour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hour-icon {
