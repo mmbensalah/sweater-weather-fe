@@ -159,46 +159,48 @@
   justify-content: space-between;
 }
 
+.all-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20px;
+  padding: 10px 75px 10px;
+  }
+
 .daily {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
   height: 300px;
-  border: 1px solid blue;
-  box-sizing: border-box;
+  padding: 10px;
 }
 
 .day-icon {
   display: flex;
-  flex-wrap: wrap;
-  background-color: red;
-}
-
-#newIconDiv {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: pink;
-}
+  flex-direction: column;
+  justify-content: space-between;
+  }
 
 .day-rain-prob {
   display: flex;
-  flex-wrap: wrap;
-  background-color: orange;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .day-temp-high {
   display: flex;
-  flex-wrap: wrap;
-  background-color: yellow;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .day-temp-low {
   display: flex;
-  flex-wrap: wrap;
-  background-color: green;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .day-time {
   display: flex;
-  flex-wrap: wrap;
-  background-color: blue;
+  flex-direction: column;
+  justify-content: space-between;
 }
