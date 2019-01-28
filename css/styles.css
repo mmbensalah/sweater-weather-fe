@@ -39,7 +39,7 @@
   padding: 10px;
   border: 1px solid #C7EBF0;
   box-sizing: border-box;
-  background-color: #B2ABBF;
+  background-color: #B1B5C8;
 }
 
 .desc-current-temp {
@@ -124,7 +124,7 @@
   padding: 10px;
   max-width: 100%;
   height: 600px;
-  background-color: #BAA7B0;
+  background-color: #B2ABBF;
 }
 
 .hourly {
