@@ -127,33 +127,33 @@
 
 .hourly {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  height: 100px;
-  padding: 10px;
+  height: 50px;
+  padding: 10px 20px 10px;
   font-size: 60%;
 }
 
-.hour {
-  display: flex;
+/* .hour { */
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.hour-icon {
+.icon {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.hour-temp {
+.temp {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.hour-time {
+.time {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -162,7 +162,7 @@
   flex-direction: row;
   justify-content: space-between;
   height: 20px;
-  padding: 10px 75px 10px;
+  padding: 40px;
   }
 
 .daily {
